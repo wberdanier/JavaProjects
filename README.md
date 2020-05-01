@@ -8,9 +8,11 @@ All projects below were sophisticated Java programs consisting of around 1000 li
 
 [Project spec](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj1/index.html)
 
+[The actual Enigma (source: Wikipedia).](enigma_wikipedia.jpg)
+
 In this project, I built a version of the German Enigma machine from WWII. The machine was fully customizable; one could specify the alphabet, the number of rotors used, the exact mapping of each rotor, number of pawls, and other elements of the machine. It was fully configurable, and one of our tests was to reproduce the NAVALI cipher (used by the German Navy).
 
-![Sample rotor mapping.](enigma1.png) ![Sample message encoding.](enigma2.png) [The actual Enigma (source: Wikipedia).](enigma_wikipedia.jpg)
+![Sample rotor mapping.](enigma1.png) ![Sample message encoding.](enigma2.png)
 
 ## Lines of Action
 
