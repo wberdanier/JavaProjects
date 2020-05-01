@@ -41,7 +41,7 @@ In this project, I built a board game app that plays [Lines of Action](https://e
 
 [Project spec](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj3/index.html)
 
-In this project, I built a working version of Git from scratch. We had to design the application entirely ourselves, with no starter code, and the finished product had to reproduce much of the functionality of Git, including the commands add, rm, branch, commit, merge, log, checkout, status, etc. I also implemented the remote commands add-remote, pull, and fetch, useful for remote repositories (like on Github!). Like in real Git, copies of files were stored in a .gitlet directory with the SHA-1 cryptographic hash of their contents ("blobs") as the file IDs, and each commit kept a table mapping filenames to blobs.
+In this project, I built a working version of Git from scratch. We had to design the application entirely ourselves, with no starter code, and the finished product had to reproduce much of the functionality of Git, including the commands add, rm, branch, commit, merge, log, checkout, status, etc. I also implemented the remote commands add-remote, rm-remote, push, pull, and fetch, useful for remote repositories (like on Github!). Like in real Git, copies of files were stored in a .gitlet directory with the SHA-1 cryptographic hash of their contents ("blobs") as the file IDs, and each commit kept a table mapping filenames to blobs.
 
 
 *Commits and blobs.*
