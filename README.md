@@ -8,15 +8,21 @@ All projects below were sophisticated Java programs consisting of around 1000 li
 
 [Project spec](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj1/index.html)
 
+
 *The actual Enigma (source: Wikipedia).*
+
 ![The actual Enigma (source: Wikipedia).](enigmaWikipedia.png)
 
 In this project, I built a version of the German Enigma machine from WWII. The machine was fully customizable; one could specify the alphabet, the number of rotors used, the exact mapping of each rotor, number of pawls, and other elements of the machine. It was fully configurable, and one of our tests was to reproduce the NAVALI cipher (used by the German Navy).
 
+
 *Sample rotor mapping.*
+
 ![Sample rotor mapping.](enigma1.png)
 
+
 *Sample message encoding.*
+
 ![Sample message encoding.](enigma2.png)
 
 ## Lines of Action
@@ -25,8 +31,11 @@ In this project, I built a version of the German Enigma machine from WWII. The m
 
 In this project, I built a board game app that plays [Lines of Action](https://en.wikipedia.org/wiki/Lines_of_Action), a game similar to Go but played on a Checkers board. Like Go, it has a remarkably deep strategy despite following relatively simple rules. For the first part of the project, I implemented a playable version of the game, both via the command line and also with a GUI. For the second part of the project, I implemented an AI that could play the game (and was able to beat me -- though I admit I am not particularly adept at Lines of Action). The AI player worked using [game trees](https://en.wikipedia.org/wiki/Game_tree); as naively trees grow exponentially with depth, to allow for more sophisticated search, I also implemented [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) on the trees.
 
+
 *Lines of Action.*
+
 ![Lines of Action.](loa1.png)
+
 
 ## Git-let
 
@@ -34,11 +43,17 @@ In this project, I built a board game app that plays [Lines of Action](https://e
 
 In this project, I built a working version of Git from scratch. We had to design the application entirely ourselves, with no starter code, and the finished product had to reproduce much of the functionality of Git, including the commands add, rm, branch, commit, merge, log, checkout, status, etc. I also implemented the remote commands add-remote, pull, and fetch, useful for remote repositories (like on Github!). Like in real Git, copies of files were stored in a .gitlet directory with the SHA-1 cryptographic hash of their contents ("blobs") as the file IDs, and each commit kept a table mapping filenames to blobs.
 
+
 *Commits and blobs.*
+
 ![Commits and blobs.](gitlet1.png)
 
+
 *Branching and merging.*
+
 ![Branching and merging.](gitlet2.png)
 
+
 *"Criss-cross" merges.*
+
 !["Criss-cross" merges.](gitlet3.png)
