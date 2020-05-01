@@ -1,6 +1,6 @@
 # JavaProjects
 
-This repo is an advertisement for three projects I completed as a part of CS 61B (Data Structures) at UC Berkeley in Spring 2020. Due to course policy, I cannot publicly post the code, but it is available upon request.
+This repo is an advertisement for three projects I completed as a part of CS 61B (Data Structures) at UC Berkeley in Spring 2020. Due to course policy, I cannot publicly post the code, but it is available upon request (password-protected zip files).
 
 All projects below were sophisticated Java programs consisting of around 1000 lines of code each, with many subclasses. The data structures used ran the gamut of those commonly used in software engineering, from linked lists to hash tables to search trees.
 
