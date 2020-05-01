@@ -1,6 +1,6 @@
 # JavaProjects
 
-This repo is an advertisement for three projects I completed as a part of CS 61B (Data Structures) at UC Berkeley in Spring 2020. Due to course policy, I cannot publicly post the code, but it is available upon request.
+This repo is an advertisement for three projects I completed as a part of CS 61B (Data Structures) at UC Berkeley in Spring 2020. Due to course policy, I cannot publicly post the code, but it is available upon request (password-protected zip files).
 
 All projects below were sophisticated Java programs consisting of around 1000 lines of code each, with many subclasses. The data structures used ran the gamut of those commonly used in software engineering, from linked lists to hash tables to search trees.
 
@@ -29,7 +29,7 @@ In this project, I built a version of the German Enigma machine from WWII. The m
 
 [Project spec](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj2/index.html)
 
-In this project, I built a board game app that plays [Lines of Action](https://en.wikipedia.org/wiki/Lines_of_Action), a game similar to Go but played on a Checkers board. Like Go, it has a remarkably deep strategy despite following relatively simple rules. For the first part of the project, I implemented a playable version of the game, both via the command line and also with a GUI. For the second part of the project, I implemented an AI that could play the game (and was able to beat me -- though I admit I am not particularly adept at Lines of Action). The AI player worked using [game trees](https://en.wikipedia.org/wiki/Game_tree); as naively trees grow exponentially with depth, to allow for more sophisticated search, I also implemented [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) on the trees.
+In this project, I built a board game app that plays [Lines of Action](https://en.wikipedia.org/wiki/Lines_of_Action), a game similar to Go but played on a Checkers board. Like Go, it has a remarkably deep strategy despite following relatively simple rules. For the first part of the project, I implemented a playable version of the game, both via the command line and also with a GUI. For the second part of the project, I implemented an AI that could play the game (and was able to beat me -- though I admit I am not particularly adept at Lines of Action). The AI player worked using [game trees](https://en.wikipedia.org/wiki/Game_tree) according to a scoring heuristic; since trees grow exponentially with depth, to allow for more sophisticated searches, I also implemented [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) on the trees.
 
 
 *Lines of Action.*
