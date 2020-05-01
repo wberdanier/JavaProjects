@@ -8,13 +8,18 @@ All projects below were sophisticated Java programs consisting of around 1000 li
 
 [Project spec](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj1/index.html)
 
-![The actual Enigma (source: Wikipedia).](enigmaWikipedia.png)*The actual Enigma (source: Wikipedia).*
+![The actual Enigma (source: Wikipedia).](enigmaWikipedia.png)
+
+*The actual Enigma (source: Wikipedia).*
 
 In this project, I built a version of the German Enigma machine from WWII. The machine was fully customizable; one could specify the alphabet, the number of rotors used, the exact mapping of each rotor, number of pawls, and other elements of the machine. It was fully configurable, and one of our tests was to reproduce the NAVALI cipher (used by the German Navy).
 
 ![Sample rotor mapping.](enigma1.png)
+
 *Sample rotor mapping.*
+
 ![Sample message encoding.](enigma2.png)
+
 *Sample message encoding.*
 
 ## Lines of Action
@@ -33,8 +38,13 @@ In this project, I built a board game app that plays [Lines of Action](https://e
 In this project, I built a working version of Git from scratch. We had to design the application entirely ourselves, with no starter code, and the finished product had to reproduce much of the functionality of Git, including the commands add, rm, branch, commit, merge, log, checkout, status, etc. I also implemented the remote commands add-remote, pull, and fetch, useful for remote repositories (like on Github!). Like in real Git, copies of files were stored in a .gitlet directory with the SHA-1 cryptographic hash of their contents ("blobs") as the file IDs, and each commit kept a table mapping filenames to blobs.
 
 ![Commits and blobs.](gitlet1.png)
+
 *Commits and blobs.*
+
 ![Branching and merging.](gitlet2.png)
+
 *Branching and merging.*
+
 !["Criss-cross" merges.](gitlet3.png)
+
 *"Criss-cross" merges.*
